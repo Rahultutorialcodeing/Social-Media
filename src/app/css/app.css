@@ -1,0 +1,200 @@
+#username,
+#email,
+#fullName,
+#password,
+#verifyCode {
+  border: 1px gray solid;
+  outline: 0 !important;
+  background-color: ghostwhite;
+}
+
+.all-singup-input:focus+.all-palceholder,
+.all-singup-input:not(:placeholder-shown)+.all-palceholder {
+  top: 0;
+  font-size: 14px;
+  color: red;
+  background-color: white;
+  transition: .2s;
+}
+
+.all-singup-input:focus {
+  background-color: white !important;
+}
+
+.acountLogo {
+  background-repeat: no-repeat;
+  background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png');
+  background-position: 0px -52px;
+  background-size: auto;
+  width: 175px;
+  height: 51px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.showpass {
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/swFqSxKYa5M.png');
+}
+
+.hidepass {
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/je5FEJkU1_K.png');
+}
+
+.wrong {
+  color: white;
+  background-color: red;
+}
+
+.success {
+  color: white;
+  background-color: green;
+}
+
+#register {
+  border: 1px #DBDBDB solid;
+  border-radius: 5px;
+}
+
+.sidebar {
+  background-color: #fff;
+  border-right: 1px #DBDBDB solid;
+}
+
+.post {
+  border-bottom: 1px #DBDBDB solid;
+}
+
+.post2 {
+  border-bottom: 3px #DBDBDB solid;
+}
+
+.round-a {
+  border: 1px black solid;
+}
+
+.phormcrr {
+  border: 1px #DBDBDB solid;
+}
+
+.postBlur {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.postm {
+  border-top: 1px #DBDBDB solid;
+}
+
+.cameImg {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.line-clamp-2 {
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+/* Customize scrollbar */
+@media screen and (min-width: 768px) {
+  .postm1 {
+    border-top: 1px #DBDBDB solid;
+  }
+
+  .scrollsec::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+    height: 10px;
+  }
+
+  /* Handle */
+  .scrollsec::-webkit-scrollbar-thumb {
+    background: #DBDBDB;
+    /* Color of the scrollbar handle */
+    border-radius: 5px;
+    /* Border radius of the scrollbar handle */
+    display: none !important;
+  }
+
+  /* Handle on hover */
+  .scrollsec::-webkit-scrollbar-thumb:hover {
+    background: #c2c1c1;
+
+    /* Color of the scrollbar handle on hover */
+  }
+
+  .scrollsec:hover::-webkit-scrollbar-thumb {
+    display: block !important;
+  }
+}
+
+.saveh {
+  border: 2px #DBDBDB solid;
+}
+
+.sjs::-webkit-scrollbar {
+  width: 10px;
+  /* Width of the scrollbar */
+  height: 10px;
+}
+
+/* Handle */
+.sjs::-webkit-scrollbar-thumb {
+  background: #DBDBDB;
+  /* Color of the scrollbar handle */
+  border-radius: 5px;
+  display: none;
+  /* Border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+.sjs::-webkit-scrollbar-thumb:hover {
+  background: #c2c1c1;
+  /* Color of the scrollbar handle on hover */
+}
+
+.sjs:hover::-webkit-scrollbar-thumb {
+  display: block;
+}
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
+.transition {
+  transition: left 0.2s ease, top 0.2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+/* ................ */
+
+.db-spinner {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 4px solid #222;
+  border-top-color: #009688;
+  border-bottom-color: #009688;
+  -webkit-animation: 1s spin linear infinite;
+  animation: 1s spin linear infinite;
+}
+#loader {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: url('https://www.bagteshfashion.com/public/frontend/images/loading.gif') no-repeat center center;
+}
